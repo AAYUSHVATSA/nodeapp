@@ -1,0 +1,131 @@
+<html>
+    <head>
+<style>
+    body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+    </head>
+    <body>
+        
+<div class="about-section">
+    <h1>About Us Page</h1>
+    <h1 style="color: crimson;">Innovaccer</h1>
+
+    <p>Innovaccer Inc. is a Silicon Valley-based healthcare company, founded by Abhinav Shashank, Kanav Hasija, and Sandeep Gupta that provides physician practices, hospitals, health systems, and other healthcare providers with population health management and Pay-for-performance solutions..</p>
+
+  </div>
+  
+  <h2 style="text-align:center">Our Team</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        
+        <div class="container">
+          <h2>ABHINAV SHASHANK</h2>
+          <p class="title">CEO & Founder</p>
+          <p>
+            As a dreamer, I am on a mission to connect and curate the world’s healthcare information to make it accessible and useful. Innovaccer is building the future of healthcare and accelerating transformation with the Innovaccer health cloud. Working with the brightest at Innovaccer on technology that unifies patient data across systems and settings and empowers healthcare organizations to rapidly develop scalable, modern applications that improve clinical, operational, and financial outcomes. Innovaccer's solutions have been deployed across more than 1,000 care settings in the U.S., enabling more than 37,000 providers to transform care delivery and work collaboratively with payers and life sciences companies. Innovaccer has helped organizations integrate medical records for more than 24 million people and generate more than $600 million in savings. Innovaccer is recognized as a Best in KLAS vendor for 2021 in population health management and a No. 1 customer-rated vendor by Black Book.
+            
+            If you, too, dream of solving problems and building the future of healthcare, giving us a shout-out!</p>
+          <p>abhinav@innovaccer.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        
+        <div class="container">
+          <h2>MAYUR PATIL</h2>
+          <p class="title">INSTRUCTOR</p>
+          <p>S18+ Years of Technology Experience # Full-Stack Solution Architect, JavaScript, MEAN, MERN, LAMP, J2EE, .Net Stack, DevOps, K8, KAFKA, UNITY3D # Corporate Trainer, Corporate Consultant, Speaker, and Product Architect</p>
+          <p>MAYUR@example.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="column">
+      <div class="card">
+        
+        <div class="container">
+          <h2>AAYUSH VATSA</h2>
+          <p class="title">Designer</p>
+          <p>Graphic Designer. Artist. Graduate of Mason Gross School of the Arts/Rutgers University.
+
+            •EXTENSIVE EXPERIENCE IN GRAPHIC DESIGN, BRAND IDENTITIES, DIGITAL DESIGN, TYPOGRAPHY, ILLUSTRATION & CLIENT SERVICES•</p>
+          <p>aayush@innovaccer.com</p>
+          <p><button class="button">Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </body>
+</html>
